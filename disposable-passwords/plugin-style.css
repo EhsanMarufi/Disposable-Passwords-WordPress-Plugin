@@ -1,0 +1,104 @@
+#disposable-passwords-plugin {
+	padding: 10px;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+#disposable-passwords-plugin h1 {
+	font-size: 120%;
+	margin: 30px 0 10px 0;
+}
+#disposable-passwords-plugin h1:first-of-type {
+	margin-top: 10px;
+}
+#disposable-passwords-plugin table {
+	width: 100%;
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+}
+#disposable-passwords-plugin th {
+	text-align: left;
+	background-color: lightblue;
+}
+#disposable-passwords-plugin .left-align {
+	text-align: left;
+}
+
+#disposable-passwords-plugin .center-align {
+	text-align: center;
+}
+
+#disposable-passwords-plugin th#status-count {
+	background-color: aliceblue;
+}
+
+#disposable-passwords-plugin tr {
+	transition: background-color 200ms ease-in-out;
+}
+
+#disposable-passwords-plugin tr.inactive {
+	background-color: #E4E4E4;
+}
+
+#disposable-passwords-plugin tr:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#disposable-passwords-plugin .pagination
+{
+    margin-top: 15px;
+}
+#disposable-passwords-plugin .margin-top {
+	margin-top: 5px;
+}
+#disposable-passwords-plugin .operation-done {
+  color: rgb(0, 0, 139);
+  background-color: rgb(144, 238, 144);
+  padding: 3px;
+  margin: 5px 0;
+}
+
+#disposable-passwords-plugin .page-numbers {
+    padding: 3px 7px;
+    background-color: rgb(173, 216, 230);
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+}
+
+#disposable-passwords-plugin span.page-numbers.current {
+    background-color: transparent;
+}
+
+#disposable-passwords-plugin select {
+  min-width: 100px;
+}
+
+#disposable-passwords-plugin .creation-item {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+#disposable-passwords-plugin .creation-form {
+    width: 70%;
+}
+
+#disposable-passwords-plugin .creation-form input,
+#disposable-passwords-plugin .creation-form select {
+    width: 100%;
+}
+
+#disposable-passwords-plugin input#creation-form-password {
+	direction: ltr;
+}
+
+#disposable-passwords-plugin .creation-wrap {
+  margin-top: 25px;
+}
+#disposable-passwords-plugin span.the-post-title-in-setting-page {
+    background-color: #FFCCD4;
+}
+#disposable-passwords-plugin .a-glimpse-of-the-post-content {
+    padding: 10px;
+    margin-bottom: 10px;
+}
